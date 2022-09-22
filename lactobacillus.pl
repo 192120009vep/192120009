@@ -1,0 +1,9 @@
+$DNA="atggataatatcgtttctcaacaaattccgcatgattccagtgctgaaaaagctgtttta
+ggtgcgatttttatcgatcctgaggctatagcggatgctagtgcggtagttcaacctgaa
+gatttttatgaaaaggctaaccaaattgtctttcaggcaatgatagatttatcagatcgt
+gaagaagcaattgatccgctgaccttacaggatgaactgaataaacgaaaccaattagat
+gatattggtggaattggctatgtttctgaattagcgcttgctacaccaacggcagcgcat
+gtcacatattatgcacagattgtgcacaggaaggcattacttcgaaagctgattttcgcc";
+$DNA=~s/t/u/g;
+print"$DNA\n";
+exit
